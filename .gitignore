@@ -1,0 +1,2 @@
+# cypress run --spec 'e2e/pom/**/*.cy.jsnode_modules
+node_modules

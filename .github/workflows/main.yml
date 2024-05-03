@@ -17,9 +17,8 @@ jobs:
         node-version: '14'
 
     - name: Install dependencies
-      run: |
-        cd cypress/e2e/pom
-        npm ci
+      run: npm ci
+      working-directory: cypress/e2e/pom
 
     - name: Run Cypress tests
       uses: cypress-io/github-action@v4
